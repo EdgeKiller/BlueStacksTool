@@ -109,6 +109,7 @@
             this.comboBox_height.FormattingEnabled = true;
             this.comboBox_height.Items.AddRange(new object[] {
             "600",
+            "666",
             "768",
             "720",
             "900",
