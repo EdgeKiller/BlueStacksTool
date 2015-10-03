@@ -1,9 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2012
+# SharpDevelop 5.1
+VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueStacksTool", "BlueStacksTool\BlueStacksTool.csproj", "{623464CA-AD28-40AA-99C6-10B468432A0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueStacksTool", "BlueStacksTool\BlueStacksTool.csproj", "{D8543EFD-9622-4272-846E-764567ADFFDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +12,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{623464CA-AD28-40AA-99C6-10B468432A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{623464CA-AD28-40AA-99C6-10B468432A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{623464CA-AD28-40AA-99C6-10B468432A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{623464CA-AD28-40AA-99C6-10B468432A0C}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{D8543EFD-9622-4272-846E-764567ADFFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8543EFD-9622-4272-846E-764567ADFFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8543EFD-9622-4272-846E-764567ADFFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8543EFD-9622-4272-846E-764567ADFFDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

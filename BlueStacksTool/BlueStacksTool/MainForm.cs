@@ -1,4 +1,9 @@
-﻿using BlueStacksTool.Utils;
+﻿/*
+ * Created by SharpDevelop.
+ * User: EdgeKiller
+ * Date: 03/10/2015
+ */
+using BlueStacksTool.Utils;
 using Microsoft.Win32;
 using System;
 using System.Diagnostics;
@@ -7,12 +12,15 @@ using System.Windows.Forms;
 
 namespace BlueStacksTool
 {
-    public partial class FormMain : Form
-    {
-        private string[] processes = new string[] { "HD-Frontend", "HD-RunApp",
+	/// <summary>
+	/// Description of MainForm.
+	/// </summary>
+	public partial class MainForm : Form
+	{
+		private string[] processes = new string[] { "HD-Frontend", "HD-RunApp",
             "HD-BlockDevice", "HD-Network", "HD-Service" };
 
-        public FormMain()
+        public MainForm()
         {
             InitializeComponent();
             this.Text = AppSettings.App.Name + AppSettings.App.Sep + AppSettings.App.Ver;
@@ -20,7 +28,7 @@ namespace BlueStacksTool
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            checkBox_fullscreen.Checked = (Read("FullScreen") == "0" ? false : true);
+            checkBox_fullscreen.Checked = (Read("FullScreen") == "0");
             comboBox_width.Text = Read("WindowWidth");
             comboBox_height.Text = Read("WindowHeight");
             timer_bluestacks.Start();
@@ -145,5 +153,5 @@ namespace BlueStacksTool
                 }
             }
         }
-    }
+	}
 }

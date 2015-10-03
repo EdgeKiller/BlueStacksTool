@@ -1,6 +1,14 @@
-﻿namespace BlueStacksTool.Utils
+﻿/*
+ * Created by SharpDevelop.
+ * User: EdgeKiller
+ * Date: 03/10/2015
+ */
+namespace BlueStacksTool.Utils
 {
-    public class AppSettings
+	/// <summary>
+	/// Description of AppSettings.
+	/// </summary>
+	public static class AppSettings
     {
 
         public static class App
