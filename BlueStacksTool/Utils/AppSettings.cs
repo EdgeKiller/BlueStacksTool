@@ -1,16 +1,7 @@
-﻿/*
- * Created by SharpDevelop.
- * User: EdgeKiller
- * Date: 03/10/2015
- */
-namespace BlueStacksTool.Utils
+﻿namespace BlueStacksTool.Utils
 {
-	/// <summary>
-	/// Description of AppSettings.
-	/// </summary>
 	public static class AppSettings
     {
-
         public static class App
         {
             public static string Name = "BlueStacksTool",
@@ -18,6 +9,5 @@ namespace BlueStacksTool.Utils
                 Ver = "Alpha 0.1",
                 Sep = " • ";
         }
-
     }
 }

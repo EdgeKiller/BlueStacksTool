@@ -1,9 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: EdgeKiller
- * Date: 03/10/2015
- */
-using BlueStacksTool.Utils;
+﻿using BlueStacksTool.Utils;
 using Microsoft.Win32;
 using System;
 using System.Diagnostics;
@@ -12,15 +7,12 @@ using System.Windows.Forms;
 
 namespace BlueStacksTool
 {
-	/// <summary>
-	/// Description of MainForm.
-	/// </summary>
-	public partial class MainForm : Form
-	{
-		private string[] processes = new string[] { "HD-Frontend", "HD-RunApp",
+    public partial class FormMain : Form
+    {
+        private string[] processes = new string[] { "HD-Frontend", "HD-RunApp",
             "HD-BlockDevice", "HD-Network", "HD-Service" };
 
-        public MainForm()
+        public FormMain()
         {
             InitializeComponent();
             this.Text = AppSettings.App.Name + AppSettings.App.Sep + AppSettings.App.Ver;
@@ -44,7 +36,7 @@ namespace BlueStacksTool
 
         private void comboBox_width_TextChanged(object sender, EventArgs e)
         {
-            if(comboBox_width.Text.Trim() != "")
+            if (comboBox_width.Text.Trim() != "")
             {
                 Write("WindowWidth", comboBox_width.Text.Trim());
                 Write("GuestWidth", comboBox_width.Text.Trim());
@@ -153,5 +145,5 @@ namespace BlueStacksTool
                 }
             }
         }
-	}
+    }
 }
